@@ -345,28 +345,3 @@ plt.plot(epochs, val_loss, 'b', "Validation Loss")
 
 
 plt.title('Training and validation loss')
-
-# Desired output. Charts with training and validation metrics. No crash :)
-
-
-# # Submission Instructions
-
-# In[ ]:
-
-
-# Now click the 'Submit Assignment' button above.
-
-
-# # When you're done or would like to take a break, please run the two cells below to save your work and close the Notebook. This will free up resources for your fellow learners. 
-
-# In[ ]:
-
-
-get_ipython().run_cell_magic('javascript', '', '<!-- Save the notebook -->\nIPython.notebook.save_checkpoint();')
-
-
-# In[ ]:
-
-
-get_ipython().run_cell_magic('javascript', '', 'IPython.notebook.session.delete();\nwindow.onbeforeunload = null\nsetTimeout(function() { window.close(); }, 1000);')
-
